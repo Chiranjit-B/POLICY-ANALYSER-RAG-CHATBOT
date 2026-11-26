@@ -1,0 +1,22 @@
+supported_formats:
+  - pdf
+  - md
+  - html
+  - docx
+  - pptx
+
+cleaning:
+  normalize_whitespace: true
+  strip_boilerplate: true
+  min_chars: 20
+
+chunking:
+  strategy: markdown_structure
+  chunk_size: 800
+  chunk_overlap: 100
+  contextual_enrichment: true
+  headers_to_split_on:
+    - ["#", "h1"]
+    - ["##", "h2"]
+    - ["###", "h3"]
+  strip_headers: false

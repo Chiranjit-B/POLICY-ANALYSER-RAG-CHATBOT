@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Environment
+.env
+
+# Documents / Datasets
+datasets/
+bechmark/
+metadata/
+
+# Generated RAG artifacts
+data/parsed/*
+!data/parsed/.gitkeep
+data/chunks/*
+!data/chunks/.gitkeep
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

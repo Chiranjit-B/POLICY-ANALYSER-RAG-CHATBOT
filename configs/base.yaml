@@ -1,0 +1,10 @@
+project_name: rag-multi-corpus
+paths:
+  datasets_dir: datasets
+  benchmark_dir: bechmark
+  parsed_dir: data/parsed
+  chunks_dir: data/chunks
+  vector_store_dir: data/vector_store
+
+logging:
+  level: INFO
