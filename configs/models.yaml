@@ -1,0 +1,10 @@
+embedding:
+  provider: openai
+  model: text-embedding-3-small
+  batch_size: 64
+
+llm:
+  provider: openai
+  model: gpt-4o-mini
+  temperature: 0.1
+  max_tokens: 1024
